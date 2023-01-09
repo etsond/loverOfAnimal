@@ -34,7 +34,7 @@ function App(){
   return (
   <div className='app'>
     {/* showing the button and the count */}
-  <button onClick={handleClick}>Give your favorite animal some love</button>
+  <button onClick={handleClick}>Click me Give your favorite animal some love</button>
   <div className='animal-list'>{renderedAnimals}</div>
   
   </div>
