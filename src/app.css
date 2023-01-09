@@ -1,0 +1,21 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* styling of the buttons */
+button {
+    background-color: rgb(242, 226, 205);
+    border: 1px soli burlywood;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+}
+/* styling the animal class name in app.js */
+.animal-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
